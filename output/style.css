@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: whitesmoke !important;
+  }
+  
+  p,
+  h3 {
+    color: white !important;
+  }
+  
+  :root {
+    --light: darkgray;
+    --dark: rgb(146, 110, 146);
+    --primary: lightblue;
+    --secondary: purple;
+  }
+  
+  .bg-light {
+    background-color: var(--light) !important;
+  }
+  .bg-dark {
+    background-color: var(--dark) !important;
+  }
+  .bg-primary {
+    background-color: var(--primary) !important;
+  }
+  .bg-secondary {
+    background-color: var(--secondary) !important;
+  }
+  
+  .navbar-brand {
+    color: white !important;
+  }
+  
+  /* Icon Styling */
+  .material-icons {
+    display: inline-flex;
+    vertical-align: top;
+  }
+  .material-icons.md-32 {
+    font-size: 32px;
+  }
+  .material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .d-flex {
+    flex-flow: wrap;
+  }
+  
+  .card {
+    min-width: 20rem;
+    background-color: transparent;
+  }
+  
+  .list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    background-color: whitesmoke;
+  }
+  
+  #Manager {
+    background: gray;
+  }
+  #Engineer {
+    background: rgba(173, 216, 230, 0.5);
+  }
+  #Intern {
+    background: rgba(96, 48, 102, 0.849);
+
+  }
+  
+  /* Media Queries */
+  @media (max-width: 690px) {
+    .d-flex {
+      flex-direction: column;
+    }
+  }
